@@ -151,8 +151,8 @@
 
     if (!visitId) {
       visitId = generateId();
-      setCookie("ahoy_visit", visitId, visitTtl);
     }
+    setCookie("ahoy_visit", visitId, visitTtl);
 
     // make sure cookies are enabled
     if (getCookie("ahoy_visit")) {
